@@ -24,6 +24,5 @@ jobs:
           namespace:  default
           
       - name: Check kubectl
-        run: kubectl get pods -A 
-          
+        run: kubectl get pods -A
           
